@@ -31,7 +31,9 @@ int main(){
     pick = rand() % VALIDATION.size();
     cout << VALIDATION[pick] << "!\n";
   }
-  while( input != "nothing" );
+  while( input != "nothing" );{
+    cout << "You cant listen to nothing! \n";
+  }
 
   return 0;
 }
